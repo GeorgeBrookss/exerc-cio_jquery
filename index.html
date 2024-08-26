@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="./main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista De Tarefas</title>
+</head>
+<body>
+    <img id="amylogo" src="https://i.redd.it/what-female-sonic-character-is-peak-character-design-to-you-v0-gasp55xl0aic1.png?width=499&format=png&auto=webp&s=70d04219618cd8b74406e6d845578f964c88e5e2" alt="">
+    <h2 >Lista de tarefas</h2>
+    <div class="lista">
+        <form>
+        <input maxlength="40" id="nome" type="text" placeholder="Nome da tarefa" required>
+        <button id="botao" type="submit">cadastrar</button>
+        
+        <ul id="container">
+    
+        </ul>
+    </form>
+    </div>
+    <div class="dicas">
+        <form>
+            <button id="dica">Dica !</button>
+            <div hidden class="tip">
+                <h2>Clique em cima de uma tarefa para marcá-la como concluída!</h2>
+                <img  id="amy" src="https://media.tenor.com/RaGQ9GNSS_cAAAAi/amy-rose-sonic-the-hedgehog.gif" alt="">
+            </div>
+        </form>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js" ></script>
+<script src="./main.js" ></script>
+</html>
